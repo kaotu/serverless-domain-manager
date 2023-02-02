@@ -66,7 +66,8 @@ const constructPlugin = (customDomainOptions, options?: ServerlessOptions, multi
         preserveExternalPathMappings: customDomainOptions.preserveExternalPathMappings,
         securityPolicy: customDomainOptions.securityPolicy,
         stage: customDomainOptions.stage,
-        route53Params: customDomainOptions.route53Params
+        route53Params: customDomainOptions.route53Params,
+        apiGatewayVersion: customDomainOptions.apiGatewayVersion
     };
 
     const serverless = {
